@@ -1,0 +1,30 @@
+#a1{
+	text-align : center;
+	background-color: pink;	
+}
+
+#a2 {
+	text-align : center;
+	background-color: pink;
+}
+#a1:hover{
+	background-color:#FF0080;
+}
+::marker{
+	color:red;
+	font-size:20px;
+}
+#點我看更多 {
+	background-color:black;
+	color:yellow;
+}
+input[type=text]{
+	width:200px;
+	display:block;
+	color:blue;
+}
+input[type=botton]{
+	width:80px;
+	display:block;
+	color:red;
+}
