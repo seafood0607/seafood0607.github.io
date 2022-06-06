@@ -3,6 +3,7 @@
   <head>
     <meta charset = "utf-8">
     <title> personal profile</title>
+	<link rel = "stylesheet" href = "mystyle2.css">
 	<script>
 		function myfunction(){
 			document.getElementById("點我看更多").innerHTML = "嘻嘻剩下是秘密";
@@ -12,16 +13,16 @@
   <body>
 
 	<div>
-		<h1><p id  = "a1" style = "color:blue">seafood的個人資料</p></h1>
+		<h1><p id  = "a1" style = "color:blue">seafood的個人資料</p></h1><!--鼠標移動改變顏色-->
 		<br>
 		<img src = "p.jpg">
 	</div>
 	<div>
-		<h1><p id = "a2">關於我</p></h1>
+		<h1><p id = "a2">關於我</p></h1><!--文字置中並改變該行顏色-->
 		<ul>
 			<li>暱稱:seafood</li>
 			<li>生日:6/7</li>
-			<li>興趣:打電動、吃美食<li>
+			<li>興趣:打電動、吃美食<li><!--marker-->
 			<a href = "https://www.youtube.com/watch?v=M7FH1dL51oU&list=PLKmlerQYH967IvK0An4K84WYrJAU0onBx&index=64&ab_channel=%E3%83%84%E3%83%A6"target = "_blank">最喜歡的歌</a>
 			<br>
 			<img src = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFBcVFRUYGBcYGhodGRoaGxkcHBocHBkZGCEaGRwiICwjHCIoIRocJDUkKC0xMjQyGSI4PTgxPCwxMi8BCwsLDw4PHRERHTMoIykxMTExMToxMTMxMTExMTMxMTExPDExMTIxMTExMTExMTExMzExMTExMTExMTExMTExMf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAADBAUGAAECBwj/xABKEAACAAQDBQUEBwYDBwIHAAABAgADESEEEjEFQVFhcQYTIoGRMkJSoSNicpKxwdEUM4KisvAHFVNDY3OzwtLhk/
@@ -30,7 +31,16 @@
 		</ul>
 	</div>
 	<div>
-		<h5><p id = "點我看更多">點擊下方看更多內容...</p></h5>
+		<h5><p id = "點我看更多">點擊下方看更多內容...</p></h5><!--改變該行顏色-->
 		<button type = "button" onclick = "myfunction()">看更多</button>
+	</div>
+	<div>
+		<p>加個好友吧</p>
+		<br>
+		<form name = "input" action = "" method = "get">
+		Name:<input type = "text" name = "Name" value = "你的名字或暱稱" size = "100">
+		Email:<input type = "text" name = "Address" value = "你的信箱" size = "100">
+		<input type = "button" value = "提交"><!--提交表格特效-->
+		</form>
 	</div>
 </html>
